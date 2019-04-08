@@ -1,0 +1,47 @@
+﻿@model HelloWorld.Models.Osoba
+@{
+    Layout = null;
+    string datumRod = Model.DatumRodjenja == null ? "" :
+        ((DateTime)Model.DatumRodjenja).ToString("dd.mm.yy");
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PrikaziOsobu</title>
+    <style>
+        label {
+            width: 100px;
+            display: inline-block;
+            margin: 5px
+        }
+
+        button {
+            margin: 5px
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="post" action=" /Osobe/PrikaziOsobu" />
+        <div>
+            <label> Ime: @Model.Ime</label>
+        </div>
+        <div>
+            <label>Prezime: @Model.Prezime</label>
+        </div>
+        <div>
+            <label>Email: @Model.Email</label>
+        </div>
+        <div>
+            <label>Datum Rođenja: @datumRod</label>
+        </div>
+        <div>
+            <a href="/Osobe/PopuniOsobu">Natrag</a>
+        </div>
+        <form />
+    </div>
+</body>
+</html>

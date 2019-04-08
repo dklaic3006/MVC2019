@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PopuniOsobu</title>
+    <style>
+        label {
+            width: 100px;
+            display: inline-block;
+            margin: 5px
+        }
+
+        button {
+            margin: 5px
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="post" acttion="/Osobe/PrikaziOsobu" />
+        <div>
+            <label>Ime</label>
+            <input type="text" name="Ime" />
+        </div>
+        <div>
+            <label>Prezime</label>
+            <input type="text" name="Prezime" />
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" name="Email" />
+        </div>
+        <div>
+            <label>Datum rođenja</label>
+            <input type="text" name="DatumRodjenja" />
+        </div>
+        <div>
+            <button type="submit">Pošalji</button>
+        </div>
+        <form/>
+    </div>
+</body>
+</html>

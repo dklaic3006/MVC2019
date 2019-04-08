@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FC517B1A-3A04-41DC-9E74-8E7CB20DA2C8}</ProjectGuid>
+    <ProjectGuid>{4E71A5B5-5B10-4DDB-9CDE-9E1649334DDD}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloWorld</RootNamespace>
-    <AssemblyName>HelloWorld</AssemblyName>
+    <RootNamespace>Validacije</RootNamespace>
+    <AssemblyName>Validacije</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -126,17 +126,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\GenIzlazController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\OsobeController.cs" />
-    <Compile Include="Controllers\PozdravSvijeteController.cs" />
-    <Compile Include="Controllers\PrviController.cs" />
-    <Compile Include="Controllers\RazorSintaksaController.cs" />
-    <Compile Include="Controllers\SimpleBidingController.cs" />
+    <Compile Include="Controllers\ValidacijeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Osoba.cs" />
+    <Compile Include="Models\MetaRacun.cs" />
+    <Compile Include="Models\Racun.cs" />
+    <Compile Include="Models\Validacije\NeViseOdTriDanaAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -175,17 +172,15 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\PozdravSvijete\Index.cshtml" />
-    <Content Include="Views\GenIzlaz\PrimjerPogleda.cshtml" />
-    <Content Include="Views\SimpleBiding\SimpleBind.cshtml" />
-    <Content Include="Views\Osobe\PopuniOsobu.cshtml" />
-    <Content Include="Views\Osobe\PrikaziOsobu.cshtml" />
-    <Content Include="Views\RazorSintaksa\Index.cshtml" />
-    <Content Include="Views\RazorSintaksa\SwitchView.cshtml" />
+    <Content Include="Views\ViewStart.cshtml" />
+    <Content Include="Views\Validacije\IzdavanjeRacuna.cshtml" />
+    <Content Include="Views\Validacije\RacunIzdan.cshtml" />
+    <Content Include="Views\Validacije\IzdavanjeRacuna2.cshtml" />
+    <Content Include="Views\Validacije\MetaIzdavanjeRacuna.cshtml" />
+    <Content Include="Views\Validacije\MetaRacunIzdan.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Prvi\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -216,9 +211,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>60435</DevelopmentServerPort>
+          <DevelopmentServerPort>64679</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:60435/</IISUrl>
+          <IISUrl>http://localhost:64679/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
