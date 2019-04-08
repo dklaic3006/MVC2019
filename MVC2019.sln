@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadaci zbirka", "Zadaci zbi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validacije", "Validacije\Validacije.csproj", "{4E71A5B5-5B10-4DDB-9CDE-9E1649334DDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET_komponente", "ADONET_komponente\ADONET_komponente.csproj", "{911D9592-4E69-4C75-9AB5-375A055F8E5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{4E71A5B5-5B10-4DDB-9CDE-9E1649334DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E71A5B5-5B10-4DDB-9CDE-9E1649334DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E71A5B5-5B10-4DDB-9CDE-9E1649334DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911D9592-4E69-4C75-9AB5-375A055F8E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911D9592-4E69-4C75-9AB5-375A055F8E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911D9592-4E69-4C75-9AB5-375A055F8E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911D9592-4E69-4C75-9AB5-375A055F8E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
