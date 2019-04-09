@@ -1,0 +1,32 @@
+﻿@model  _7._1._1_Unos_podataka_s_validacijom.Models.Osoba
+@{
+    ViewBag.Title = "UnesiOsobu";
+    Html.EnableClientValidation(false);
+}
+
+<h2>UnesiOsobu</h2>
+
+@using (Html.BeginForm())
+{
+    
+    <div>
+        <label>Ime</label>
+        @Html.EditorFor(x => x.Ime)
+        @Html.ValidationMessageFor(x => x.Ime)
+    </div>
+    <div>
+        <label>Prezime</label>
+        @Html.EditorFor(x => x.Prezime)
+        @Html.ValidationMessageFor(x=>x.Prezime)
+    </div>
+    <div>
+        <label>Datum rođenja</label>
+        @Html.EditorFor(x => x.DatumRodjenja)
+    </div>
+    <div>
+        <label>Mobitel</label>
+        @Html.EditorFor(x => x.Mobitel)
+    </div>
+
+    <input type="submit" value="Provjeri"/>
+}
