@@ -14,7 +14,8 @@ namespace ADONET_komponente.Controllers
         public ActionResult Index()
         {
             //prvo moramo sastaviti connection string
-            string connString = @"server = K-GRUPA-NOTEBOO\LOCALDB#FFEEEFA5";
+            string connString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=dbAlgebra;Integrated Security=True;
+                Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
             //zatim instanciramo SqlConnection objekt
             SqlConnection conn = new SqlConnection(connString);
