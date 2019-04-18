@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadaca_5_5_1_6_1_1", "..\..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adresar.WcfService", "Adresar.WcfService\Adresar.WcfService.csproj", "{8FF52021-EA62-4473-9C2C-548ED7B8C7ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parcijalni 1", "parcijalni 1\parcijalni 1.csproj", "{7B69E498-234E-4354-B841-3D6DE14BB82D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcijalni 2", "Parcijalni 2\Parcijalni 2.csproj", "{58E76AA5-8F9D-4D76-A462-BDB4BD9B4453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +99,14 @@ Global
 		{8FF52021-EA62-4473-9C2C-548ED7B8C7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FF52021-EA62-4473-9C2C-548ED7B8C7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FF52021-EA62-4473-9C2C-548ED7B8C7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B69E498-234E-4354-B841-3D6DE14BB82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B69E498-234E-4354-B841-3D6DE14BB82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B69E498-234E-4354-B841-3D6DE14BB82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B69E498-234E-4354-B841-3D6DE14BB82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E76AA5-8F9D-4D76-A462-BDB4BD9B4453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E76AA5-8F9D-4D76-A462-BDB4BD9B4453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E76AA5-8F9D-4D76-A462-BDB4BD9B4453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E76AA5-8F9D-4D76-A462-BDB4BD9B4453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
